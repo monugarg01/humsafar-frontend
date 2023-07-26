@@ -1,0 +1,75 @@
+ table, td, th {
+    border: 1px solid black;
+    padding: 15px;
+  }
+  #table2 {
+    align-items: center;
+    border-collapse: collapse;
+  }
+  tr,td,th
+  {
+    width: 300px;
+  }
+  .predictiontable
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .para{
+   word-wrap: break-word;
+    line-height: 1.8;
+  }
+   figure{
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  .image{
+    height: auto;
+   vertical-align: bottom;
+    width: 300px;
+  }
+  .telegramlink{
+     display: flex;
+  } 
+   figcaption{
+    margin-left: 46px;
+  } 
+
+  .heading_playerstats{
+    font-size: 24px;
+    text-align: center;
+  }
+  .wicketkeeperimage{
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+
+  }
+  p{
+    font-weight: 700
+  }
+  .wicket_keeper_1{
+    text-align: center;
+  }
+  .batsman{
+    background-color: brown;
+    color: azure;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .test1:nth-child(3n-1)  {
+    line-height:1;
+  }
+  .wicket_keeper_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .test1{
+    display:table;
+  }

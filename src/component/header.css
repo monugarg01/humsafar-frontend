@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:var(--base-3);
+    box-shadow: 5px 10px aliceblue;
+    color:black;
+    width: 95vw;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    padding-left: 10px;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    list-style-type: none;
+    font-size: 20px;    
+    padding: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .navbar a {
+    color:black;
+  }
+  .navbar .log {
+    font-weight: 400;
+  }
+  
